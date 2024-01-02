@@ -59,7 +59,7 @@ your own OS)."
 Alternatively, from the dom0 command line:
 
 ```
-qvm-create --class StandaloneVM --label <YOUR_COLOR> --property virt_mode=hvm <NEW_STANDALONE_NAME>
+qvm-create --class StandaloneVM --label <YOUR_COLOR> --property virt_mode=hvm --template <TEMPLATE_QUBE_NAME> <NEW_STANDALONE_NAME>
 ```
 
 (Note: Technically, `virt_mode=hvm` is not necessary for every standalone.
